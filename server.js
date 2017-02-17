@@ -10,7 +10,7 @@ app.get('/', function (req, res) {
 });
 
 app.get('/airtical-one', function (req, res) {
-  res.sendFile(path.join(__dirname, 'ui', 'index.html'));
+  res.send('Airtical One Requested and will be served here');
 });
 
 app.get('/ui/style.css', function (req, res) {
